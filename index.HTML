@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="weather-forecast.png" type="image/x-icon" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="INDEX.CSS" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <!-- <li id="weatherlable">Weather</li> -->
+        <li id="homelable">Home</li>
+        <li>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              id="get"
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search for city...."
+              aria-label="Search"
+            />
+            <button
+              id="search"
+              class="btn btn-outline-success my-2 my-sm-0"
+              type="submit"
+            >
+              Search
+            </button>
+          </form>
+        </li>
+      </ul>
+    </nav>
+
+    <div>
+      <h2 id="head"></h2>
+    </div>
+    <div>
+      <di class="temp">
+        <img src="sun1..jpg" alt="" id="rain" />
+        <p id="temperature"></p>
+        <p id="imgnature"></p>
+        <p id="max-temp"></p>
+        <p id="min-temp"></p>
+      </di>
+      <div class="hum">
+        <img src="humidity.jpg" alt="" id="rain" />
+        <p id="humidity"></p>
+        <p id="wind_speed"></p>
+        <p id="wind_degrees"></p>
+        <img class="wind_speedimg" src="icons8-wind-48.png" alt="" srcset="" />
+      </div>
+    </div>
+    <div id="tempcity"></div>
+    <script src="INDEX.JS"></script>
+  </body>
+</html>
